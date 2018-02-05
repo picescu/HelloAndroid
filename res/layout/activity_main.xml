@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/name"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/phone"
+        android:textSize="@dimen/textSize"
+        android:paddingLeft="@dimen/padd"
+        android:autoLink="phone"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/website"
+        android:layout_above="@id/phone"
+        android:id="@+id/website"
+        android:textSize="@dimen/textSize"
+        android:paddingBottom="@dimen/paddMin"
+        android:paddingLeft="@dimen/padd"
+        android:autoLink="web"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adress"
+        android:layout_above="@id/website"
+        android:id="@+id/address"
+        android:textSize="@dimen/textSize"
+        android:paddingBottom="@dimen/paddMin"
+        android:paddingLeft="@dimen/padd"
+        android:autoLink="map"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bussinessName"
+        android:layout_above="@id/address"
+        android:textSize="@dimen/textSize"
+        android:paddingBottom="@dimen/paddMin"
+        android:paddingLeft="@dimen/padd"
+        />
+
+</RelativeLayout>

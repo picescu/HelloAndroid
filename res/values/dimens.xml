@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="padd">8dp</dimen>
+    <dimen name="paddMin">4dp</dimen>
+</resources>
